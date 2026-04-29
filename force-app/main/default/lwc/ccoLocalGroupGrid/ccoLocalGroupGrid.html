@@ -1,0 +1,31 @@
+<template>
+    <div class="cco-grid">
+        <template lwc:if={isLoading}>
+            <div class="cco-grid__spinner">
+                <lightning-spinner alternative-text="Loading groups" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <template lwc:elseif={hasError}>
+            <p class="cco-grid__error">Unable to load community groups. Please try again.</p>
+        </template>
+
+        <template lwc:elseif={hasGroups}>
+            <h2 class="cco-grid__title">Community Groups</h2>
+            <div class="cco-grid__tiles">
+                <template for:each={groupsWithIndex} for:item="item">
+                    <c-cco-local-group-card
+                        key={item.group.Id}
+                        group={item.group}
+                        group-index={item.idx}
+                        ongroupselect={handleGroupSelect}>
+                    </c-cco-local-group-card>
+                </template>
+            </div>
+        </template>
+
+        <template lwc:else>
+            <p class="cco-grid__empty">No community groups found.</p>
+        </template>
+    </div>
+</template>

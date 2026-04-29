@@ -1,0 +1,23 @@
+<template>
+    <article class="cco-card cco-card--group" onclick={handleClick} role="button" tabindex="0" onkeypress={handleKeyPress}>
+        <div class={bandClass}></div>
+        <div class="cco-card__icon">
+            <lightning-icon icon-name="standard:groups" size="large" alternative-text={group.Name}></lightning-icon>
+        </div>
+        <div class="cco-card__body">
+            <h3 class="cco-card__title">{group.Name}</h3>
+            <template lwc:if={group.Location__c}>
+                <p class="cco-card__location">
+                    <lightning-icon icon-name="utility:location" size="x-small"></lightning-icon>
+                    {group.Location__c}
+                </p>
+            </template>
+            <template lwc:if={group.Description__c}>
+                <p class="cco-card__description">{shortDescription}</p>
+            </template>
+        </div>
+        <div class="cco-card__footer">
+            <span class="cco-card__action">Browse Assets →</span>
+        </div>
+    </article>
+</template>

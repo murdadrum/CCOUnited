@@ -1,0 +1,17 @@
+<template>
+    <article class="cco-card cco-card--category" onclick={handleClick} role="button" tabindex="0" onkeypress={handleKeyPress}>
+        <div class="cco-card__icon">
+            <lightning-icon icon-name={iconName} size="large" alternative-text={category.Name}></lightning-icon>
+        </div>
+        <div class="cco-card__body">
+            <h3 class="cco-card__title">{category.Name}</h3>
+            <template lwc:if={category.Description__c}>
+                <p class="cco-card__description">{shortDescription}</p>
+            </template>
+        </div>
+        <div class="cco-card__footer">
+            <span class="cco-card__action">View Assets →</span>
+            <span class="cco-count-badge">{assetCount} assets</span>
+        </div>
+    </article>
+</template>

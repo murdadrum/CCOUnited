@@ -1,0 +1,413 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetFireStation" },
+      "Name": "Fire Station",
+      "Asset_Category__c": "@CatMunicipal",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetCommunityCenter" },
+      "Name": "Community Center",
+      "Asset_Category__c": "@CatMunicipal",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetSpaceport" },
+      "Name": "Interstellar Spaceport",
+      "Asset_Category__c": "@CatMunicipal",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetPark" },
+      "Name": "Park (3 acre)",
+      "Asset_Category__c": "@CatSpaces",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetStadium" },
+      "Name": "Stadium",
+      "Asset_Category__c": "@CatSpaces",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetShootingRange" },
+      "Name": "Shooting Range",
+      "Asset_Category__c": "@CatSpaces",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetSkatePark" },
+      "Name": "Skate Park",
+      "Asset_Category__c": "@CatSpaces",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetStageTheater" },
+      "Name": "Stage/Theater",
+      "Asset_Category__c": "@CatSpaces",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetWaterPark" },
+      "Name": "Water Park",
+      "Asset_Category__c": "@CatSpaces",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Seasonal"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetScissorLift" },
+      "Name": "Scissor Lift",
+      "Asset_Category__c": "@CatHeavyEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetBulldozer" },
+      "Name": "Bulldozer",
+      "Asset_Category__c": "@CatHeavyEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetAirplane" },
+      "Name": "Airplane",
+      "Asset_Category__c": "@CatHeavyEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetHotAirBalloon" },
+      "Name": "Hot Air Balloon",
+      "Asset_Category__c": "@CatHeavyEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Seasonal"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTimeMachine" },
+      "Name": "Time Machine",
+      "Asset_Category__c": "@CatHeavyEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTrapSkeet" },
+      "Name": "Trap and Skeet Thrower",
+      "Asset_Category__c": "@CatLightEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetSnorkelTruck" },
+      "Name": "Snorkel Truck",
+      "Asset_Category__c": "@CatLightEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetSmoker" },
+      "Name": "Smoker/BBQ",
+      "Asset_Category__c": "@CatLightEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetBicycles" },
+      "Name": "Bicycles",
+      "Asset_Category__c": "@CatLightEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetCarpentryTools" },
+      "Name": "Carpentry Tools",
+      "Asset_Category__c": "@CatLightEquip",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTourBus" },
+      "Name": "Tour Bus",
+      "Asset_Category__c": "@CatVehicles",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetFoodTruck" },
+      "Name": "Food Truck",
+      "Asset_Category__c": "@CatVehicles",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetSailboat" },
+      "Name": "Sailboat",
+      "Asset_Category__c": "@CatVehicles",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Seasonal"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetFlyingSaucer" },
+      "Name": "Flying Saucer",
+      "Asset_Category__c": "@CatVehicles",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetBowlingAlley" },
+      "Name": "Bowling Alley",
+      "Asset_Category__c": "@CatPartners",
+      "Asset_Type__c": "Partner",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetCafe" },
+      "Name": "Cafe",
+      "Asset_Category__c": "@CatPartners",
+      "Asset_Type__c": "Partner",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetMarina" },
+      "Name": "Marina",
+      "Asset_Category__c": "@CatPartners",
+      "Asset_Type__c": "Partner",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetScreenPrinter" },
+      "Name": "Screen Printer",
+      "Asset_Category__c": "@CatPartners",
+      "Asset_Type__c": "Partner",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetAmmoReloading" },
+      "Name": "Ammo Reloading",
+      "Asset_Category__c": "@CatSkills",
+      "Asset_Type__c": "Skill",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetHorticulture" },
+      "Name": "Horticulture",
+      "Asset_Category__c": "@CatSkills",
+      "Asset_Type__c": "Skill",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetFilmVideo" },
+      "Name": "Film and Video Production",
+      "Asset_Category__c": "@CatSkills",
+      "Asset_Type__c": "Skill",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetScubaDiving" },
+      "Name": "Scuba Diving",
+      "Asset_Category__c": "@CatSkills",
+      "Asset_Type__c": "Skill",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetDogSledding" },
+      "Name": "Dog Sledding",
+      "Asset_Category__c": "@CatSkills",
+      "Asset_Type__c": "Skill",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetYouTubeContent" },
+      "Name": "YouTube Content Creation",
+      "Asset_Category__c": "@CatSkills",
+      "Asset_Type__c": "Skill",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetLicenseCharter" },
+      "Name": "Licensed Charter Boat Captain",
+      "Asset_Category__c": "@CatLicenses",
+      "Asset_Type__c": "Credential",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetCDL" },
+      "Name": "CDL (Commercial Driver's License)",
+      "Asset_Category__c": "@CatLicenses",
+      "Asset_Type__c": "Credential",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetPilotLicense" },
+      "Name": "Pilot License",
+      "Asset_Category__c": "@CatLicenses",
+      "Asset_Type__c": "Credential",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetAgent007" },
+      "Name": "007 Certification",
+      "Asset_Category__c": "@CatLicenses",
+      "Asset_Type__c": "Credential",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetInterestMusical" },
+      "Name": "Musical Events",
+      "Asset_Category__c": "@CatInterests",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetInterestFoodTrucks" },
+      "Name": "Food Trucks",
+      "Asset_Category__c": "@CatInterests",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetInterestBreakDancing" },
+      "Name": "Break Dancing",
+      "Asset_Category__c": "@CatInterests",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetInterestScuba" },
+      "Name": "Scuba",
+      "Asset_Category__c": "@CatInterests",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetInterestYouTube" },
+      "Name": "YouTube",
+      "Asset_Category__c": "@CatInterests",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTristanHarris" },
+      "Name": "Tristan Harris",
+      "Asset_Category__c": "@CatCulturalLeaders",
+      "Asset_Type__c": "Person",
+      "Status__c": "Available",
+      "Description__c": "Co-founder of the Center for Humane Technology and advocate for ethical technology design."
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetArtists" },
+      "Name": "Artists",
+      "Asset_Category__c": "@CatCulturalLeaders",
+      "Asset_Type__c": "Person",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetMusicians" },
+      "Name": "Musicians",
+      "Asset_Category__c": "@CatCulturalLeaders",
+      "Asset_Type__c": "Person",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTeachers" },
+      "Name": "Teachers",
+      "Asset_Category__c": "@CatCulturalLeaders",
+      "Asset_Type__c": "Person",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetCenterHumanTech" },
+      "Name": "Center for Human Technology",
+      "Asset_Category__c": "@CatCulturalCenters",
+      "Asset_Type__c": "Partner",
+      "Status__c": "Available",
+      "Description__c": "Organization focused on the intersection of technology and human wellbeing.",
+      "File_URL__c": "https://www.humanetech.com"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetLakeTenkiller" },
+      "Name": "Lake Tenkiller",
+      "Asset_Category__c": "@CatNaturalResources",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTrails" },
+      "Name": "Trails",
+      "Asset_Category__c": "@CatNaturalResources",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetCampgrounds" },
+      "Name": "Campgrounds",
+      "Asset_Category__c": "@CatNaturalResources",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Seasonal"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetTables" },
+      "Name": "Tables",
+      "Asset_Category__c": "@CatSupplies",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetArt" },
+      "Name": "Art Supplies",
+      "Asset_Category__c": "@CatSupplies",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetBridges" },
+      "Name": "Bridges",
+      "Asset_Category__c": "@CatInfrastructure",
+      "Asset_Type__c": "Physical",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetFishing" },
+      "Name": "Fishing Club",
+      "Asset_Category__c": "@CatRecClubs",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetSailing" },
+      "Name": "Sailing Club",
+      "Asset_Category__c": "@CatRecClubs",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Seasonal"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetRecHorticulture" },
+      "Name": "Horticulture Club",
+      "Asset_Category__c": "@CatRecClubs",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetStickball" },
+      "Name": "Stick Ball",
+      "Asset_Category__c": "@CatRecClubs",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    },
+    {
+      "attributes": { "type": "Asset__c", "referenceId": "AssetAstronomy" },
+      "Name": "Astronomy Club",
+      "Asset_Category__c": "@CatRecClubs",
+      "Asset_Type__c": "Interest",
+      "Status__c": "Available"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<template>
+    <article class="cco-card cco-card--asset">
+        <div class="cco-card__header">
+            <span class="cco-card__type-badge cco-card__type-badge--{typeBadgeClass}">{asset.Asset_Type__c}</span>
+            <template lwc:if={asset.Status__c}>
+                <span class="cco-card__status cco-card__status--{statusClass}">{asset.Status__c}</span>
+            </template>
+        </div>
+        <div class="cco-card__body">
+            <h3 class="cco-card__title">{asset.Name}</h3>
+            <template lwc:if={asset.Description__c}>
+                <p class="cco-card__description">{shortDescription}</p>
+            </template>
+            <template lwc:if={hasTags}>
+                <div class="cco-tag-list">
+                    <template for:each={tagList} for:item="tag">
+                        <span key={tag.key} class="cco-tag-chip">{tag.label}</span>
+                    </template>
+                </div>
+            </template>
+            <template lwc:if={asset.Contact_Name__c}>
+                <p class="cco-card__contact">
+                    <lightning-icon icon-name="utility:user" size="x-small"></lightning-icon>
+                    {asset.Contact_Name__c}
+                    <template lwc:if={asset.Contact_Email__c}>
+                        &nbsp;·&nbsp;
+                        <a href={mailtoLink} class="cco-card__email">{asset.Contact_Email__c}</a>
+                    </template>
+                </p>
+            </template>
+        </div>
+        <template lwc:if={asset.File_URL__c}>
+            <div class="cco-card__footer">
+                <a href={asset.File_URL__c} target="_blank" rel="noopener noreferrer" class="cco-card__link">
+                    <lightning-icon icon-name="utility:new_window" size="x-small"></lightning-icon>
+                    View Resource
+                </a>
+            </div>
+        </template>
+    </article>
+</template>

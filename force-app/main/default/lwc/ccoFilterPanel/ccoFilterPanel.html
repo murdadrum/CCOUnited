@@ -1,0 +1,33 @@
+<template>
+    <div class="cco-filter-panel">
+        <h2 class="cco-filter-panel__title">Filter</h2>
+
+        <div class="cco-filter-panel__field">
+            <lightning-combobox
+                name="groupFilter"
+                label="Local Group"
+                placeholder="All Groups"
+                options={groupOptions}
+                value={selectedGroupId}
+                onchange={handleGroupChange}>
+            </lightning-combobox>
+        </div>
+
+        <div class="cco-filter-panel__field">
+            <lightning-combobox
+                name="typeFilter"
+                label="Asset Type"
+                placeholder="All Types"
+                options={typeOptions}
+                value={selectedAssetType}
+                onchange={handleTypeChange}>
+            </lightning-combobox>
+        </div>
+
+        <template lwc:if={hasFilters}>
+            <button class="cco-filter-panel__clear" onclick={handleClear}>
+                Clear Filters
+            </button>
+        </template>
+    </div>
+</template>

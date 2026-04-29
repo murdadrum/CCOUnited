@@ -1,0 +1,10 @@
+# List files or directories below to ignore them when running force:source commands
+# Files in the LWC __tests__ directories are ignored by default
+**/__tests__/**
+
+# LWC configuration files
+**/jsconfig.json
+**/.eslintrc.json
+
+# LWC Jest
+jest.config.js

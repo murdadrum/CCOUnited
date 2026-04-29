@@ -1,0 +1,13 @@
+{
+  "orgName": "CCO United Dev",
+  "edition": "Developer",
+  "features": ["ExperienceBundle", "Communities"],
+  "settings": {
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    }
+  }
+}

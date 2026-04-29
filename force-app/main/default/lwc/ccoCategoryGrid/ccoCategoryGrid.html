@@ -1,0 +1,31 @@
+<template>
+    <div class="cco-grid">
+        <template lwc:if={isLoading}>
+            <div class="cco-grid__spinner">
+                <lightning-spinner alternative-text="Loading categories" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <template lwc:elseif={hasError}>
+            <p class="cco-grid__error">Unable to load categories. Please try again.</p>
+        </template>
+
+        <template lwc:elseif={hasCategories}>
+            <h2 class="cco-grid__title">{groupName} — Asset Categories</h2>
+            <div class="cco-grid__tiles">
+                <template for:each={categoriesWithCounts} for:item="cat">
+                    <c-cco-category-card
+                        key={cat.Id}
+                        category={cat}
+                        asset-count={cat.assetCount}
+                        oncategoryselect={handleCategorySelect}>
+                    </c-cco-category-card>
+                </template>
+            </div>
+        </template>
+
+        <template lwc:else>
+            <p class="cco-grid__empty">No categories found for this group.</p>
+        </template>
+    </div>
+</template>

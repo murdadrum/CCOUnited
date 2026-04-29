@@ -1,0 +1,109 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatMunicipal" },
+      "Name": "Municipal Buildings",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 1,
+      "Icon_Name__c": "standard:account"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatSpaces" },
+      "Name": "Spaces",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 2,
+      "Icon_Name__c": "standard:location"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatHeavyEquip" },
+      "Name": "Heavy Equipment",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 3,
+      "Icon_Name__c": "standard:asset_object"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatLightEquip" },
+      "Name": "Light Equipment",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 4,
+      "Icon_Name__c": "standard:asset_object"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatVehicles" },
+      "Name": "Vehicles",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 5,
+      "Icon_Name__c": "standard:opportunity"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatPartners" },
+      "Name": "Commercial Business Partners",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 6,
+      "Icon_Name__c": "standard:account"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatSkills" },
+      "Name": "Niche Skills",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 7,
+      "Icon_Name__c": "standard:skill"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatLicenses" },
+      "Name": "Licenses",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 8,
+      "Icon_Name__c": "standard:endorsement"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatInterests" },
+      "Name": "Interests",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 9,
+      "Icon_Name__c": "standard:topic"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatCulturalLeaders" },
+      "Name": "Cultural Leaders",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 10,
+      "Icon_Name__c": "standard:contact"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatCulturalCenters" },
+      "Name": "Cultural Centers",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 11,
+      "Icon_Name__c": "standard:groups"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatNaturalResources" },
+      "Name": "Natural Resources",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 12,
+      "Icon_Name__c": "standard:environment_hub"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatSupplies" },
+      "Name": "Supplies",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 13,
+      "Icon_Name__c": "standard:product"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatInfrastructure" },
+      "Name": "Infrastructure",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 14,
+      "Icon_Name__c": "standard:work_order"
+    },
+    {
+      "attributes": { "type": "Asset_Category__c", "referenceId": "CatRecClubs" },
+      "Name": "Rec Clubs",
+      "Local_Community_Group__c": "@GroupKeys",
+      "Display_Order__c": 15,
+      "Icon_Name__c": "standard:event"
+    }
+  ]
+}

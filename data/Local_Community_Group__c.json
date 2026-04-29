@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "GroupKeys" },
+      "Name": "Keys CCO",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "Florida Keys, FL",
+      "Description__c": "The Keys CCO chapter serves the Florida Keys community with a diverse set of resources including marine assets, equipment, cultural spaces, and skilled members."
+    },
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "GroupKansas" },
+      "Name": "Kansas CCO",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "Kansas",
+      "Description__c": "Kansas CCO chapter — coming soon."
+    },
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "Group3" },
+      "Name": "CCO3",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "TBD",
+      "Description__c": "CCO Chapter 3 — coming soon."
+    },
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "Group4" },
+      "Name": "CCO4",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "TBD",
+      "Description__c": "CCO Chapter 4 — coming soon."
+    },
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "Group5" },
+      "Name": "CCO5",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "TBD",
+      "Description__c": "CCO Chapter 5 — coming soon."
+    },
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "Group6" },
+      "Name": "CCO6",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "TBD",
+      "Description__c": "CCO Chapter 6 — coming soon."
+    },
+    {
+      "attributes": { "type": "Local_Community_Group__c", "referenceId": "Group7" },
+      "Name": "CCO7",
+      "National_Organization__c": "@NationalOrg1",
+      "Status__c": "Active",
+      "Location__c": "TBD",
+      "Description__c": "CCO Chapter 7 — coming soon."
+    }
+  ]
+}

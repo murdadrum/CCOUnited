@@ -1,0 +1,22 @@
+<template>
+    <nav class="cco-breadcrumb" aria-label="breadcrumb">
+        <ol class="cco-breadcrumb__list">
+            <template for:each={crumbs} for:item="crumb" for:index="idx">
+                <li key={crumb.label} class="cco-breadcrumb__item">
+                    <template lwc:if={crumb.isLast}>
+                        <span class="cco-breadcrumb__current" aria-current="page">{crumb.label}</span>
+                    </template>
+                    <template lwc:else>
+                        <button
+                            class="cco-breadcrumb__link"
+                            data-view={crumb.view}
+                            onclick={handleClick}>
+                            {crumb.label}
+                        </button>
+                        <span class="cco-breadcrumb__separator" aria-hidden="true">/</span>
+                    </template>
+                </li>
+            </template>
+        </ol>
+    </nav>
+</template>

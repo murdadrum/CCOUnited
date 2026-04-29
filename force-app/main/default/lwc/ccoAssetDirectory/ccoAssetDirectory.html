@@ -1,0 +1,91 @@
+<template>
+    <div class="cco-directory">
+        <!-- Sticky search bar -->
+        <div class="cco-sticky-header">
+            <c-cco-search-bar onsearch={handleSearch}></c-cco-search-bar>
+        </div>
+
+        <c-cco-hero title={siteTitle} subtitle={siteSubtitle}></c-cco-hero>
+
+        <div class="cco-directory__body">
+            <template lwc:if={showBreadcrumb}>
+                <c-cco-breadcrumb
+                    crumbs={breadcrumbs}
+                    onnavigate={handleBreadcrumbNavigate}>
+                </c-cco-breadcrumb>
+            </template>
+
+            <!-- View: Group List -->
+            <template lwc:if={isViewGroups}>
+                <c-cco-local-group-grid ongroupselect={handleGroupSelect}></c-cco-local-group-grid>
+            </template>
+
+            <!-- View: Category List -->
+            <template lwc:elseif={isViewCategories}>
+                <c-cco-category-grid
+                    group-id={selectedGroupId}
+                    group-name={selectedGroupName}
+                    oncategoryselect={handleCategorySelect}>
+                </c-cco-category-grid>
+            </template>
+
+            <!-- View: Asset List (drill-down) -->
+            <template lwc:elseif={isViewAssets}>
+                <div class="cco-directory__asset-layout">
+                    <aside class={filtersClass}>
+                        <c-cco-filter-panel
+                            selected-group-id={selectedGroupId}
+                            selected-category-id={selectedCategoryId}
+                            selected-asset-type={selectedAssetType}
+                            onfilterchange={handleFilterChange}>
+                        </c-cco-filter-panel>
+                    </aside>
+                    <main class="cco-directory__assets">
+                        <c-cco-asset-grid
+                            category-id={selectedCategoryId}
+                            search-term={searchTerm}
+                            group-id={filterGroupId}
+                            asset-type={selectedAssetType}>
+                        </c-cco-asset-grid>
+                    </main>
+                </div>
+            </template>
+
+            <!-- View: Search Results -->
+            <template lwc:elseif={isViewSearch}>
+                <div class="cco-directory__asset-layout">
+                    <aside class={filtersClass}>
+                        <c-cco-filter-panel
+                            selected-group-id={filterGroupId}
+                            selected-asset-type={selectedAssetType}
+                            onfilterchange={handleFilterChange}>
+                        </c-cco-filter-panel>
+                    </aside>
+                    <main class="cco-directory__assets">
+                        <c-cco-asset-grid
+                            search-term={searchTerm}
+                            group-id={filterGroupId}
+                            asset-type={selectedAssetType}>
+                        </c-cco-asset-grid>
+                    </main>
+                </div>
+            </template>
+        </div>
+
+        <!-- Mobile bottom navigation -->
+        <nav class="cco-mobile-nav">
+            <button class={groupsBtnClass} onclick={handleMobileGroups}>
+                <lightning-icon icon-name="utility:groups" size="x-small"></lightning-icon>
+                Groups
+            </button>
+            <button class={searchBtnClass} onclick={handleMobileSearch}>
+                <lightning-icon icon-name="utility:search" size="x-small"></lightning-icon>
+                Search
+            </button>
+            <button class={filterBtnClass} onclick={handleMobileFilter}>
+                <lightning-icon icon-name="utility:filterList" size="x-small"></lightning-icon>
+                Filter
+            </button>
+        </nav>
+    </div>
+</template>

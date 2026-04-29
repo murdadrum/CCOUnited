@@ -1,0 +1,13 @@
+<template>
+    <div class="cco-search-bar">
+        <lightning-input
+            type="search"
+            label="Search assets"
+            placeholder="Search by name, description, or tags..."
+            variant="label-hidden"
+            value={searchValue}
+            onchange={handleChange}
+            onkeyup={handleKeyUp}>
+        </lightning-input>
+    </div>
+</template>

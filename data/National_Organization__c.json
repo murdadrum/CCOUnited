@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "National_Organization__c", "referenceId": "NationalOrg1" },
+      "Name": "CCO",
+      "Status__c": "Active",
+      "Description__c": "Community Cooperative Organization — a national network connecting local community groups to share resources, skills, and assets.",
+      "Website__c": "https://cco.org"
+    }
+  ]
+}

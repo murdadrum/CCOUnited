@@ -1,0 +1,21 @@
+# Salesforce DX
+.sfdx/
+.sf/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Credentials / secrets
+.env
+*.key
+server.key

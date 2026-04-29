@@ -1,0 +1,26 @@
+[
+  {
+    "sobject": "National_Organization__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": ["National_Organization__c.json"]
+  },
+  {
+    "sobject": "Local_Community_Group__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Local_Community_Group__c.json"]
+  },
+  {
+    "sobject": "Asset_Category__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Asset_Category__c.json"]
+  },
+  {
+    "sobject": "Asset__c",
+    "saveRefs": false,
+    "resolveRefs": true,
+    "files": ["Asset__c.json"]
+  }
+]

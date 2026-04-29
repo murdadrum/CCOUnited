@@ -1,0 +1,29 @@
+<template>
+    <div class="cco-grid cco-grid--assets">
+        <template lwc:if={isLoading}>
+            <div class="cco-grid__spinner">
+                <lightning-spinner alternative-text="Loading assets" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <template lwc:elseif={hasError}>
+            <p class="cco-grid__error">Unable to load assets. Please try again.</p>
+        </template>
+
+        <template lwc:elseif={hasAssets}>
+            <p class="cco-grid__count">{resultCount} asset(s) found</p>
+            <div class="cco-grid__tiles">
+                <template for:each={assets} for:item="asset">
+                    <c-cco-asset-card key={asset.Id} asset={asset}></c-cco-asset-card>
+                </template>
+            </div>
+        </template>
+
+        <template lwc:else>
+            <div class="cco-grid__empty">
+                <lightning-icon icon-name="utility:search" size="medium"></lightning-icon>
+                <p>No assets found. Try adjusting your search or filters.</p>
+            </div>
+        </template>
+    </div>
+</template>
